@@ -11,17 +11,8 @@
   
   <!--this is our bean-->
   
-  <bean class="com.springcore.Student" name="student1">
-  <property name="studentId" value="207" />
+  <bean class="com.springcore.Student" name="student1" p:studentId ="207" p:studentName="Md Sajjad Hossin" p:studentAddres="Magura Khulna Bngaldesh"/>
   
-  
-  <property name="studentName" value="Md Sajjad Hossin"/>
-  
-  
-  <property name="studentAddres" value="Magura Khulna Bangladesh"/>
-  
-  
-  </bean>
   
   <bean class="com.springcore.Student" name="student2">
   <property name="studentId" value="200" />
